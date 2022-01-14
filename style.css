@@ -1,0 +1,72 @@
+/* ---------------
+font styles link
+---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Nunito&display=swap');
+
+/*----------------
+ common styles
+ --------------- */
+body{
+    font-family: 'Arvo', serif;
+font-family: 'Nunito', sans-serif;
+margin: 50px 80px;
+}
+
+
+
+
+
+/*-------------------------
+ header element's styles
+ ------------------------ */
+ .Top-section{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .navigation-bar>ul{
+    display: flex;
+    
+     }
+ .navigation-bar>ul>li{
+list-style: none;
+padding: 5px 10px;
+ }
+ .navigation-bar>ul>li>a{
+text-decoration: none;
+color: black;
+ }
+
+ .header-contents{
+     display: flex;
+     align-items:center;
+     justify-content: space-between;
+     padding-top: 40px;
+ }
+ .header-texts{
+    width: 50%;
+    height: 50%;
+ }
+ .header-texts a{
+     text-decoration: none;
+     color: white;
+     padding: 5px 15px;
+     border-radius: 20px;
+     background-color: #E02C6D;
+ }
+ .header-texts i{ padding-left: 10px;
+ }
+ 
+ .header-image{
+    width: 475px;
+    height: 475px;
+    background-image: url(./images/Circle\ design.svg);
+
+ }
+ .header-image img{
+ width: 440px;
+height: 414px;
+
+
+}
+ 
