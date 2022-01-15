@@ -69,4 +69,74 @@ height: 414px;
 
 
 }
+.brands_layer{
+    margin: 80px 0 ;
+}
+.brands_layer>hr{
+  border: 0px;
+    height: 1px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.158),rgb(255, 255, 255) );
+}
+.brand_names {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    
+}
  
+/*-------------------------
+   main element's styles
+ ------------------------ */
+ .all_gears_section{
+margin: 0 100px;
+ }
+ .all_gears_section>h2{
+text-align: center;
+padding-bottom: 20px;
+ }
+ .gears{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+justify-content: center;
+ }
+ .gear{
+    width: 320px;
+    height: 480px;
+    background: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px 0 0 20px;
+ }
+ .gear_image{
+    margin-bottom: 5px;
+ }
+ .gear_info>h3{
+    margin-top: 15px;
+    margin-bottom: 0%;
+    font-size: 30px;
+ }
+ .gear_info>h4{
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:sans-serif;
+ }
+ .ratings{
+margin-top: 5px;
+color: #FB8200;
+font-size: 12px;
+ }
+ .ratings span{
+margin-top: 5px;
+color: #5E6366;
+margin-left: 5px;
+font-weight: 700;
+font-size: 15px;
+ }
+ .gear_info p{
+color:#5E6366 ;
+font-weight: 700;
+margin: 0;
+ }
