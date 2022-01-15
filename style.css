@@ -9,9 +9,18 @@ font styles link
 body{
     font-family: 'Arvo', serif;
 font-family: 'Nunito', sans-serif;
-margin: 50px 80px;
+margin: 0px;
 }
+a{
+    text-decoration: none;
 
+}
+header{
+    margin: 50px 80px;
+}
+main{
+    margin: 50px 80px;
+}
 
 
 
@@ -33,7 +42,6 @@ list-style: none;
 padding: 5px 10px;
  }
  .navigation-bar>ul>li>a{
-text-decoration: none;
 color: black;
  }
 
@@ -48,7 +56,6 @@ color: black;
     height: 50%;
  }
  .header-texts a{
-     text-decoration: none;
      color: white;
      padding: 5px 15px;
      border-radius: 20px;
@@ -88,7 +95,7 @@ height: 414px;
    main element's styles
  ------------------------ */
  .all_gears_section{
-margin: 0 100px;
+margin: 0 150px;
  }
  .all_gears_section>h2{
 text-align: center;
@@ -139,4 +146,42 @@ font-size: 15px;
 color:#5E6366 ;
 font-weight: 700;
 margin: 0;
+ }
+ .see-more-button{
+     position: relative;
+     left:100%;
+     color: #E02C6D
+     ;font-weight: 700;
+ }
+
+ 
+/*-----------------
+     Footer
+-----------------*/
+ .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #03030e;
+    color: white;
+    padding: 50px 0px ;
+    
+ }
+ .footer h2,h3{
+     font-weight: 200;
+     margin: 0px;
+     padding: 10px;
+ }
+ #copyright_motto{
+     margin-bottom: 30px;
+ }
+ 
+ .footer-icons{
+     color: white;
+     padding: 10px 15px;
+     border: 0px solid;
+     margin: 0px 10px;
+     background-color: rgba(255, 255, 255, 0.068);
+     border-radius: 40px;
+    
  }
