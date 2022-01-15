@@ -43,6 +43,8 @@ padding: 5px 10px;
  }
  .navigation-bar>ul>li>a{
 color: black;
+color:#3A3A3A;
+
  }
 
  .header-contents{
@@ -121,6 +123,7 @@ justify-content: center;
  .gear_info>h3{
     margin-top: 15px;
     margin-bottom: 0%;
+    padding-left: 0%;
     font-size: 30px;
  }
  .gear_info>h4{
@@ -154,7 +157,7 @@ margin: 0;
      ;font-weight: 700;
  }
 
- 
+
 /*-----------------
      Footer
 -----------------*/
